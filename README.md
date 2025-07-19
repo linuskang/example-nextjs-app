@@ -5,8 +5,11 @@ This is an example NextJS app with NextAuth for authentication w/ Prisma.
 ## Built in pages & routes
 
 ``/`` Shows login button when not signed in/displays user profile info.
+
 ``/dashboard`` Protected page that redirects to /signin if not authenticated.
+
 ``/signin`` Simple signin page.
+
 ``/api/protected`` Example protected API route. Returns 401 if not authenticated/shows user info.
 
 ## Setup
